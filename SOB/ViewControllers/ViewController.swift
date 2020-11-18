@@ -81,9 +81,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             [weak self] NPGEOCoronaResult in
             switch NPGEOCoronaResult {
             case .failure:
-                ErrorPresenter.showError(message: "There was an error getting the NPGEOCoronaResult", on: self)
+                ErrorPresenter.showError(message: NSLocalizedString("ResponseError", comment: ""), on: self)
             case .success(let caseCounts):
-                print(String(format: "VC_%f", caseCounts))
                 // 4 Update UI - Color, Rules and Last Updated
                 self?.setDisplayData(caseCounts: caseCounts)
             }
