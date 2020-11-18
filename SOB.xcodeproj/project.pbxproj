@@ -21,7 +21,6 @@
 		344DD89A255EB7F30019EE7C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344DD899255EB7F30019EE7C /* CoreLocation.framework */; };
 		344DD89F255EEC460019EE7C /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344DD89E255EEC460019EE7C /* GetLocation.swift */; };
 		3465A9DB25616AC700F07DBA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3465A9DD25616AC700F07DBA /* Localizable.strings */; };
-		346C5EE3256259210058EFDB /* CoronaPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C5EE2256259210058EFDB /* CoronaPhase.swift */; };
 		3472F63425600CB200B2280A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472F63325600CB200B2280A /* Constants.swift */; };
 		34C21E3825658E8A002CAA8E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 34C21E3725658E8A002CAA8E /* Alamofire */; };
 		34C21E3D25658F13002CAA8E /* NPGEOCoronaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C21E3C25658F13002CAA8E /* NPGEOCoronaResponse.swift */; };
@@ -69,7 +68,6 @@
 		3465A9DC25616AC700F07DBA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3465A9E125616ACF00F07DBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3465A9E725616B4400F07DBA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		346C5EE2256259210058EFDB /* CoronaPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoronaPhase.swift; sourceTree = "<group>"; };
 		3472F63325600CB200B2280A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		34C21E3C25658F13002CAA8E /* NPGEOCoronaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPGEOCoronaResponse.swift; sourceTree = "<group>"; };
 		34C21E4125658F3A002CAA8E /* SOBLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SOBLocationManager.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				34C21E3C25658F13002CAA8E /* NPGEOCoronaResponse.swift */,
-				346C5EE2256259210058EFDB /* CoronaPhase.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -363,7 +360,6 @@
 				344DD887255EB30A0019EE7C /* ErrorPresenter.swift in Sources */,
 				344DD89F255EEC460019EE7C /* GetLocation.swift in Sources */,
 				3417C3652563BD3B00424CAE /* PhaseHelper.swift in Sources */,
-				346C5EE3256259210058EFDB /* CoronaPhase.swift in Sources */,
 				34C21E3D25658F13002CAA8E /* NPGEOCoronaResponse.swift in Sources */,
 				344DD844255EB17F0019EE7C /* AppDelegate.swift in Sources */,
 				344DD846255EB17F0019EE7C /* SceneDelegate.swift in Sources */,
