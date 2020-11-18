@@ -1,0 +1,19 @@
+"GreenRules" = "- Einschränkungen des persönlichen Kontakts im öffentlichen Raum.
+- Private Veranstaltungen (d. H. Hochzeiten usw.) mit maximal 100 Teilnehmern in geschlossenen Räumen und maximal 200 Teilnehmern im Freien.
+- Das Tragen einer Maske ist obligatorisch, wenn (einschließlich, aber nicht beschränkt auf) die Nutzung öffentlicher Verkehrsmittel, Einkaufen, Essen und Trinken in Restaurants, Bars usw. und der Mindestabstand (1,5 m) nicht eingehalten werden kann.";
+"YellowRules" = "- Private Feiern und Kontakte: nicht mehr als zwei Haushalte oder zehn Personen.
+- Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen, in öffentlichen Gebäuden, in weiterführenden Schulen während des Unterrichts, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw. obligatorisch.
+- Ausgangssperre und Verbot des Verkaufs sowie des Alkoholkonsums im öffentlichen Raum ab 23:00 Uhr.";
+"RedRules" = "- Private Feiern und Kontakte: nicht mehr als 5 Haushalte oder fünf Personen.
+- Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen, in öffentlichen Gebäuden, für alle Klassenstufen, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw. obligatorisch.
+- Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr.";
+"DarkRedRules" = "- Veranstaltungen (z. B. Clubtreffen, Sportveranstaltungen, kulturelle Veranstaltungen usw.) dürfen 50 Personen nicht überschreiten.
+- Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen, in öffentlichen Gebäuden, für alle Klassenstufen, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw. obligatorisch.
+- Schließzeit für Lebensmittel- / Gastronomie-Verkaufsstellen, Verbot des Alkoholverkaufs und des Alkoholkonsums an bestimmten öffentlichen Orten ab 21:00 Uhr.";
+"Rules" = "Regeln :";
+"LastUpdated" = "Zuletzt aktualisiert : ";
+"You are in %@." = "Sie befinden sich in der %@.";
+"GreenPhase" = "Grüne Phase";
+"YellowPhase" = "Gelbe Phase";
+"RedPhase" = "Rote Phase";
+"DarkRedPhase" = "Dunkelrote Phase";
