@@ -2,6 +2,20 @@
 
 SOB is iOS application made with Swift 5.3 
 
+## Description
+
+An application for the federal state of Bavaria.
+
+Application main functionality is to keep the citizens updated on new and upcoming Coronavirus / Covid-19 Regulations.
+
+The federal state of bavaria has decided that restrictions are area based on the 7 days incidence calculated on the basis of 100.000 Citizens per area.
+
+1. Green Phase Case < 35
+2. Yellow Phase Case 36 to 50
+3. Red  Phase Case 51 to 100
+4. Dark Red  Phase Case > 100
+
+
 ## Functionality 
 
 1) Get User's Current location
