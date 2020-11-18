@@ -27,11 +27,8 @@ The federal state of bavaria has decided that restrictions are area based on the
  
 ## ScreenShots 
 
-![Imgur Image](https://postimg.cc/xk77PHLK.jpg)
-![Imgur Image](https://postimg.cc/wR5GHGZV)
-![Imgur Image](https://postimg.cc/ykBGn73r)
-![Imgur Image](https://postimg.cc/4HRSDgLy)
-![Imgur Image](https://postimg.cc/pyK7DmrF)
+![Imgur Image](https://i.postimg.cc/MTKSqmTr/Screenshot-2020-11-19-at-12-48-26-AM.png)
+
 
 ## Installation
 
