@@ -25,6 +25,13 @@ The federal state of bavaria has decided that restrictions are area based on the
 5) Background fetch for Case Count with user's updated location. and If Phase is changed then user will get local notification. '
 6) Localisation for German and English
  
+## ScreenShots 
+
+![Imgur Image](https://postimg.cc/xk77PHLK)
+![Imgur Image](https://postimg.cc/wR5GHGZV)
+![Imgur Image](https://postimg.cc/ykBGn73r)
+![Imgur Image](https://postimg.cc/4HRSDgLy)
+![Imgur Image](https://postimg.cc/pyK7DmrF)
 
 ## Installation
 
