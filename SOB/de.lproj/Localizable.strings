@@ -17,3 +17,6 @@
 "YellowPhase" = "Gelbe Phase";
 "RedPhase" = "Rote Phase";
 "DarkRedPhase" = "Dunkelrote Phase";
+"ResponseError" = "Beim Abrufen des NPGEOCoronaResult ist ein Fehler aufgetreten";
+"Error" = "Error";
+"Dismiss" = "Entlassen";

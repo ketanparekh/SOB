@@ -17,4 +17,7 @@
 "YellowPhase" = "Yellow Phase";
 "RedPhase" = "Red Phase";
 "DarkRedPhase" = "Dark Red Phase";
+"ResponseError" = "There was an error getting the NPGEOCoronaResult";
+"Error" = "Error";
+"Dismiss" = "Dismiss";
 
