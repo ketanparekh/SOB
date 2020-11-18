@@ -47,7 +47,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         circleView.layer.borderColor = UIColor.clear.cgColor
         circleView.layer.borderWidth = 5.0
         
-        phaseText?.text = String(format: NSLocalizedString("You are in %@ phase.", comment: ""), phase)
+        phaseText?.text = String(format: NSLocalizedString("You are in %@ phase.", comment: ""),  NSLocalizedString(phase, comment: ""))
         let lastUpdated = NSLocalizedString("LastUpdated", comment: "")
         
         let lastUpdatedValue = defaults.string(forKey: Constants.Common.lastUpdated)
