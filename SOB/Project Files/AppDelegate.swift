@@ -54,7 +54,7 @@ extension AppDelegate {
             [weak self] NPGEOCoronaResult in
             switch NPGEOCoronaResult {
             case .failure:
-                ErrorPresenter.showError(message: "There was an error getting the NPGEOCoronaResult", on: self?.window?.rootViewController)
+                ErrorPresenter.showError(message: NSLocalizedString("ResponseError", comment: ""), on: self?.window?.rootViewController)
             case .success(let caseCounts):
                 // Check if Store count and current count hase same phase or not
                 let defaults = UserDefaults.standard
