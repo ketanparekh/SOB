@@ -9,48 +9,47 @@ import Foundation
 import CoreLocation
 import UIKit
 class SOBLocationManager:
-NSObject,CLLocationManagerDelegate {
+    NSObject,CLLocationManagerDelegate {
     
     var appDelegate = UIApplication.shared.delegate as? AppDelegate
     var locationManager: CLLocationManager?
     private static var privateShared :
-SOBLocationManager?
+        SOBLocationManager?
     var traveledDistance: Double = 0
     class func shared() -> SOBLocationManager {
-    guard let uwShared = privateShared else {
-        privateShared = SOBLocationManager()
-        return privateShared!
+        guard let uwShared = privateShared else {
+            privateShared = SOBLocationManager()
+            return privateShared!
+        }
+        return uwShared
     }
-    return uwShared
-}
-class func destroy() {
-    privateShared = nil
-}
-
-func startMonitoringLocation(){
-    if locationManager != nil{
+    class func destroy() {
+        privateShared = nil
+    }
+    
+    func startMonitoringLocation(){
+        if locationManager != nil{
+            locationManager?.stopMonitoringSignificantLocationChanges()
+        }
+        locationManager = CLLocationManager()
+        locationManager?.delegate = self
+        locationManager?.allowsBackgroundLocationUpdates = true
+        locationManager?.desiredAccuracy = kCLLocationAccuracyBestForNavigation
+        locationManager?.activityType = CLActivityType.otherNavigation
+        locationManager?.requestAlwaysAuthorization()
+        locationManager?.startMonitoringSignificantLocationChanges()
+    }
+    func restartMonitoringLocation(){
         locationManager?.stopMonitoringSignificantLocationChanges()
+        locationManager?.requestAlwaysAuthorization()
+        locationManager?.startMonitoringSignificantLocationChanges()
     }
-    locationManager = CLLocationManager()
-    locationManager?.delegate = self
-    locationManager?.allowsBackgroundLocationUpdates = true
-    locationManager?.desiredAccuracy = kCLLocationAccuracyBestForNavigation
-    locationManager?.activityType = CLActivityType.otherNavigation
-    locationManager?.requestAlwaysAuthorization()
-    locationManager?.startMonitoringSignificantLocationChanges()
-}
-func restartMonitoringLocation(){
-    locationManager?.stopMonitoringSignificantLocationChanges()
-    locationManager?.requestAlwaysAuthorization()
-    locationManager?.startMonitoringSignificantLocationChanges()
-}
-
-
-func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
-    let location = locations.last
-    let defaults = UserDefaults.standard
-    defaults.set(location?.coordinate.latitude, forKey: Constants.Common.lastLocationLatitude)
-    defaults.set(location?.coordinate.longitude, forKey: Constants.Common.lastLocationLongitude)
-    appDelegate?.scheduleLocalNotification(title: "bgnew", message: "bgTaskew")
-}
+    
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]){
+        let location = locations.last
+        let defaults = UserDefaults.standard
+        defaults.set(location?.coordinate.latitude, forKey: Constants.Common.lastLocationLatitude)
+        defaults.set(location?.coordinate.longitude, forKey: Constants.Common.lastLocationLongitude)
+    }
 }
